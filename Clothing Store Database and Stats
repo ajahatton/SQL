@@ -1,0 +1,21 @@
+CREATE TABLE aja_store (id integer primary key, item text, size integer, color text, material text, price integer);
+
+Insert into aja_store values (1, "leggings", 6, "black", "lycra", 57);
+Insert into aja_store values (2, "tank_top", 4, "pink", "lycra", 48);
+Insert into aja_store values (3, "belt_bag", 0, "taupe", "boucle", 36);
+Insert into aja_store values (4, "tennis_shoes", 8, "purple", "rubber", 118);
+Insert into aja_store values (5, "bike_shorts", 4, "black", "nylon", 42);
+Insert into aja_store values (6, "headband", 0, "yellow", "nylon", 18);
+Insert into aja_store values (7, "leggings", 8, "navy_blue", "nylon", 57);
+Insert into aja_store values (8, "hoodie", 12, "gray", "cotton", 109);
+Insert into aja_store values (9, "long_sleeve", 10, "powder_blue", "cotton", 74);
+Insert into aja_store values (10, "tshirt", 6, "white", "cotton", 52);
+Insert into aja_store values (11, "tank_top", 4, "orange", "lycra", 48);
+Insert into aja_store values (12, "sweatshirt", 12, "ivory", "cotton", 100);
+Insert into aja_store values (13, "headband", 0, "green", "nylon", 18);
+Insert into aja_store values (14, "bike_shorts", 4, "red", "lycra", 42);
+Insert into aja_store values (15, "tshirt", 2, "fuscia", "cotton", 52);
+SELECT * from aja_store;
+
+SELECT * from aja_store where price >=20
+ORDER BY price asc;
